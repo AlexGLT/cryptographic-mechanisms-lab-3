@@ -161,10 +161,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="big-number.cpp" />
+    <ClCompile Include="el-gamal.cpp" />
     <ClCompile Include="lab-3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="big-number.hpp" />
+    <ClInclude Include="el-gamal.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
